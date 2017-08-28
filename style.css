@@ -1,0 +1,55 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.lock {
+  overflow: hidden;
+}
+
+.swipeable {
+  touch-action: auto;
+  position: relative;
+  background: green;
+}
+
+.slide {
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.slide img {
+  max-width: 100%;
+}
+
+.slide_1 {
+  background: rgb(220, 220, 220);
+  padding: 15px;
+}
+
+.slide_2 {
+  padding: 15px;
+  transition: .5s transform;
+  will-change: transition;  
+  position: fixed;
+  top: 0;
+  background: rgb(32, 37, 47);
+  color: rgb(250, 250, 250);
+  transform: translateX(100vw);
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
+  touch-action: none;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.half-height-block {
+  height: 50vh;
+}
